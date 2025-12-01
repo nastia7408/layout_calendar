@@ -8,9 +8,8 @@ $day-color: #eee;
 $hover-move: 20px;
 $hover-color: #ffbfcb;
 $width1: $day-size * $columns;
-$width2: 2 * $calendar-padding;
-$width3: ($gap-size * ($columns - 1));
-$calendar-width: $width1 + $width2 + $width3;
+$width2: ($gap-size * ($columns - 1));
+$calendar-width: $width1 + $width2 ;
 
 body {
   font-family: Arial, sans-serif;
